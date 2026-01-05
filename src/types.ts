@@ -46,6 +46,8 @@ export type Persona = {
   goal: string
   summary: string
   focus?: string
+  quote?: string
+  touchpoints?: string[]
   flows: JourneyFlow[]
 }
 
